@@ -9,6 +9,7 @@ import SwiftUI
 struct HomeView: View {
 	// MARK: -  PROPERTY
 	@AppStorage("onboading") var isOnboadingViewActive: Bool = false
+	@State private var isAnimating: Bool = false
 	
 
 	// MARK: -  BODY
@@ -27,6 +28,14 @@ struct HomeView: View {
 					.resizable()
 					.scaledToFit()
 				.padding()
+				// Reapeat Animation
+				.offset(y: isAnimating ? 35 : -35)
+				.animation(
+					Animation
+						.easeInOut(duration: 4)
+						.repeatForever()
+					, value: isAnimating
+				)
 			}
 			
 			// MARK: -  CENTER
@@ -43,7 +52,9 @@ struct HomeView: View {
 			Spacer()
 			
 			Button(action: {
-				isOnboadingViewActive = true
+				withAnimation {
+					isOnboadingViewActive = true
+				}
 			}) {
 				Image(systemName: "arrow.triangle.2.circlepath.circle.fill")
 					.imageScale(.large)
@@ -55,6 +66,13 @@ struct HomeView: View {
 			.buttonBorderShape(.capsule)
 			.controlSize(.large)
 		} //: VStack
+		// Animation Timing
+		// 화면이 나타나고 3초 뒤에 animation 시작될 수 있게 main thread 에 접근해서 asyncAfter 를 주어서 3초 delay 를 줍니다
+		.onAppear(perform: {
+			DispatchQueue.main.asyncAfter(deadline: .now() + 2, execute: {
+				isAnimating = true
+			})
+		})
 	}
 }
 

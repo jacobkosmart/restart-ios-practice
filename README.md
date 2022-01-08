@@ -33,9 +33,19 @@
 
 ```
 
-### 🔷 HomeView Screen build
+####
 
-#### Reusable components
+```swift
+
+```
+
+#### 👉
+
+=
+
+### 🔷
+
+####
 
 - The goal
 
