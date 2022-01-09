@@ -40,17 +40,17 @@
 
 ``` -->
 
-### 🔷 [1.AppStorage](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/01.AppStorage.md)
+#### 👉 [1.AppStorage](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/01.AppStorage.md)
 
-### 🔷 [2.OnboardingView Build](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/02.OnboardingBuild.md)
+#### 👉 [2.OnboardingView Build](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/02.OnboardingBuild.md)
 
-### 🔷 [3.HomeView Build](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/03.HomeBuild.md)
+#### 👉 [3.HomeView Build](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/03.HomeBuild.md)
 
-### 🔷 [4.DragGesture](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/04.DragGesture.md)
+#### 👉 [4.DragGesture](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/04.DragGesture.md)
 
-### 🔷 [5.Animation](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/05.Animation.md)
+#### 👉 [5.Animation](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/05.Animation.md)
 
-### 🔷 [6.Color, Haptic, Sound](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/06.Color.haptic%2Csound.md)
+#### 👉 [6.Color, Haptic, Sound](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/06.Color.haptic%2Csound.md)
 
 <!-- #### 👉 -->
 
