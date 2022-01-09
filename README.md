@@ -1,8 +1,14 @@
 # ▶️ Restart-ios-practice
 
+<img width="300" alt="스크린샷" src="https://user-images.githubusercontent.com/28912774/148661034-04624fb8-fade-4e0c-827c-9290d820b0e4.gif">
+
 <!-- ! gif 스크린샷 -->
 
 ## 📌 기능 상세
+
+- Complex SwiftUI Gestures
+
+- Parallax Effect : multiple movements in the opposite direction
 
 <!-- ## 👉 Pod library -->
 
@@ -25,29 +31,30 @@
 
 ### 🔷 UI Structure
 
-<!-- ! 스토리보드, 앱 구조 ppt 스샷 -->
+![image](https://user-images.githubusercontent.com/28912774/148703955-9b00c77c-4f97-443e-966f-1def8d13bdff.png)
 
+<!--
 ### 🔷 Model
 
 ```swift
 
-```
+``` -->
 
-````
+### 🔷 [1.AppStorage](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/01.AppStorage.md)
 
-```swift
+### 🔷 [2.OnboardingView Build](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/02.OnboardingBuild.md)
 
-````
+### 🔷 [3.HomeView Build](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/03.HomeBuild.md)
 
-### 🔷
+### 🔷 [4.DragGesture](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/04.DragGesture.md)
 
-#### 👉
+### 🔷 [5.Animation](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/05.Animation.md)
 
-####
+### 🔷 [6.Color, Haptic, Sound](https://github.com/jacobkosmart/restart-ios-practice/blob/main/MD/06.Color.haptic%2Csound.md)
 
-- The goal
+<!-- #### 👉 -->
 
-> Describing check point in details in Jacob's DevLog - https://jacobko.info/firebaseios/ios-firebase-03/
+<!-- > Describing check point in details in Jacob's DevLog - https://jacobko.info/firebaseios/ios-firebase-03/ -->
 
 <!-- ## ❌ Error Check Point
 
@@ -78,6 +85,4 @@
 
 ## 🗃 Reference
 
-Jacob's DevLog - []()
-
-SwiftUI Masterclass 2022 - [https://www.udemy.com/course/swiftui-masterclass-course-ios-development-with-swift/](https://www.udemy.com/course/swiftui-masterclass-course-ios-development-with-swift/)
+Udemy SwiftUI Masterclass 2022 - [https://www.udemy.com/course/swiftui-masterclass-course-ios-development-with-swift/](https://www.udemy.com/course/swiftui-masterclass-course-ios-development-with-swift/)
